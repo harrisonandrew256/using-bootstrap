@@ -1,73 +1,28 @@
-.webpage{
-	background-color: lavender;
-	width: 800px;
-	height: auto;
-	margin: auto;
+body {
+  padding: 50px; 
+}
+#welcome-section {
+  width: 400px;
+  height: 200px;
+  background-color: #FF0000;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 body{
-	background-color: blue;
-	width: 800px;
-	height: auto;
-	margin: auto;
-	background-image: url(ex.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.welcome-section{
-	text-align: center;
-	background-color: #EEEEEE;
-	color: blue;
-	background-image: url(agasa.jpg);
-    background-repeat: repeat;
-	background-position: center;
-	height: 200px;
-	font-size: 16px;
-	padding: 10px;
-}
-.my-profiles, .navbar, .projects-title {
-	font-family: sans-serif;
-	color: #66CCFF;
-	padding: 10px;
-	float: right;
-}
-.contact{
-	color: blue;
-	font-family: sans-serif;
-}
-.personal{
-	color: blue;
-	font-family: sans-serif;
-
-}
-.education{
-	color: blue;
-	float: right;
-}
-td, th{
-	border:1px color #dddddd;
-	border-style: solid;
-}
-.employment{
-	color: blue;
-}
-.skills{
-	color: blue;
-}
-.footer{
-	color:  blue;
-	text-align: center;
-	background-image: url(ex.jpg);
-}
-.copyright{
-	color: blue;
-	text-align: center;
-}
-.navbar{
-	float: right;
-}
-h1, h3, h4{
-	margin: o;
-}
-.sidebar{
-	color: blue;
+  background-color: #FFA500
 }
